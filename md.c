@@ -333,17 +333,11 @@ void test(void){
   char str[MAXSTR];
   state* s;
 
-   //String Testing
-  //NULL file
   strcpy(str, "");
   s = str2state(str);
   assert(s == NULL);
   free(s);
 
-  //Space in File After New line and in middle of board was tested in given files
-
-  //Board Testing
-  //Same Letter
   strcpy(str, "A-AAA-AAA-AAA-AAA");
   s = str2state(str);
   assert(s);

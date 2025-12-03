@@ -1,5 +1,3 @@
-// Change this file in any way you like
-// Do not alter driver.c / Makefile / md.h
 #pragma once
 
 #include <stdio.h>
@@ -8,7 +6,6 @@
 #include <ctype.h>
 #include <stdbool.h>
 #include <assert.h>
-
 
 
 #define BRDSZ 6
